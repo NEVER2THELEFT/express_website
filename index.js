@@ -9,7 +9,7 @@ const auth = require('./auth/auth');  // Ensure the path matches where your auth
 const controller = require('./controllers/guestbook_controllers');
 const methodOverride = require ('method-override');
 const userModel = require('./models/user_model');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 require('dotenv').config(); // loads info from .env file
 
